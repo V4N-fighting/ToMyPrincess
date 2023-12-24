@@ -30,23 +30,15 @@ click.onmouseover = function (e) {
         case 2:
             break;
         case 3:
-            text.innerText = 'Đố mày bắt được tao :))'
+            text.innerText = 'Em hông nhấn được đâu :3'
             text.style.display = 'block';
             break;
         case 4:
-            text.innerText = 'Gà vl vậy mày'
-            text.style.display = 'block';
-            break;
-        case 5:
-            text.innerText = 'Nhấn cho đàng hoàng coi !'
-            text.style.display = 'block';
-            break;
-        case 6:
-            text.innerText = 'Má vậy mà cũng không nhấn được'
+            text.innerText = 'Cố chấp dợ'
             text.style.display = 'block';
             break;
         default:
-            text.innerText = 'Nguuuuuuuuuuuu'
+            text.innerText = 'Kia đi :))'
             text.style.display = 'block';
     }
 
@@ -60,7 +52,7 @@ click.onmouseover = function (e) {
             break;
         default:
             yes.style.display = 'block';
-            yes.innerText = 'Chỉ nhấn tao được thôi'
+            yes.innerText = 'Không còn lựa chọn nào khác'
 
     }
 
@@ -94,98 +86,98 @@ btn.onclick = function () {
     setTimeout(function () {
         page1.style.display = 'none';
     }, 800)
-    page2.style.animation = 'opacityup 0.8s linear'
-    setTimeout(function () {
-        page2.style.display = 'block';
-    }, 800)
-
-
-}
-
-click2.onmouseover = function (e) {
-
-    animation.style.display = 'none';
-
-
-    randomNumber1 = Math.floor(Math.random() * 1000);
-
-    while ((randomNumber1 < 60) || (randomNumber1 > 580) || (Math.abs(randomNumber1 - hisNum1) < 200)) {
-        randomNumber1 = Math.floor(Math.random() * 1000);
-    }
-
-    randomNumber2 = Math.floor(Math.random() * 1000);
-
-    while ((randomNumber2 < 60) || (randomNumber2 > 1200) || (Math.abs(randomNumber2 - hisNum2) < 100)) {
-        randomNumber2 = Math.floor(Math.random() * 1000);
-    }
-
-
-
-    click2.style.top = randomNumber1 + 'px';
-    click2.style.left = randomNumber2 + 'px';
-    hisNum1 = randomNumber1;
-    hisNum2 = randomNumber2;
-
-}
-
-btn2.onclick = function () {
-    
-    audio.play();
-    animation.style.display = 'block';
-    page2.style.animation = 'opacity  0.8s linear'
-    setTimeout(function () {
-        page2.style.display = 'none';
-        
-    }, 800)
-    page3.style.animation = 'opacityup 0.8s linear'
-    setTimeout(function () {
-        page3.style.display = 'block';
-    }, 800)
-   
-}
-
-click3.onmouseover = function (e) {
-
-    animation.style.display = 'none';
-
-
-    randomNumber1 = Math.floor(Math.random() * 1000);
-
-    while ((randomNumber1 < 60) || (randomNumber1 > 580) || (Math.abs(randomNumber1 - hisNum1) < 200)) {
-        randomNumber1 = Math.floor(Math.random() * 1000);
-    }
-
-    randomNumber2 = Math.floor(Math.random() * 1000);
-
-    while ((randomNumber2 < 60) || (randomNumber2 > 1200) || (Math.abs(randomNumber2 - hisNum2) < 100)) {
-        randomNumber2 = Math.floor(Math.random() * 1000);
-    }
-
-
-
-    click3.style.top = randomNumber1 + 'px';
-    click3.style.left = randomNumber2 + 'px';
-    hisNum1 = randomNumber1;
-    hisNum2 = randomNumber2;
-
-}
-
-
-btn3.onclick = function () {
-    
-    audio.play();
-    animation.style.display = 'block';
-    page3.style.animation = 'opacity  0.8s linear'
-    setTimeout(function () {
-        page3.style.display = 'none';
-        
-    }, 800)
     page4.style.animation = 'opacityup 0.8s linear'
     setTimeout(function () {
         page4.style.display = 'block';
     }, 800)
-   
+
+
 }
+
+// click2.onmouseover = function (e) {
+
+//     animation.style.display = 'none';
+
+
+//     randomNumber1 = Math.floor(Math.random() * 1000);
+
+//     while ((randomNumber1 < 60) || (randomNumber1 > 580) || (Math.abs(randomNumber1 - hisNum1) < 200)) {
+//         randomNumber1 = Math.floor(Math.random() * 1000);
+//     }
+
+//     randomNumber2 = Math.floor(Math.random() * 1000);
+
+//     while ((randomNumber2 < 60) || (randomNumber2 > 1200) || (Math.abs(randomNumber2 - hisNum2) < 100)) {
+//         randomNumber2 = Math.floor(Math.random() * 1000);
+//     }
+
+
+
+//     click2.style.top = randomNumber1 + 'px';
+//     click2.style.left = randomNumber2 + 'px';
+//     hisNum1 = randomNumber1;
+//     hisNum2 = randomNumber2;
+
+// }
+
+// btn2.onclick = function () {
+    
+//     audio.play();
+//     animation.style.display = 'block';
+//     page2.style.animation = 'opacity  0.8s linear'
+//     setTimeout(function () {
+//         page2.style.display = 'none';
+        
+//     }, 800)
+//     page3.style.animation = 'opacityup 0.8s linear'
+//     setTimeout(function () {
+//         page3.style.display = 'block';
+//     }, 800)
+   
+// }
+
+// click3.onmouseover = function (e) {
+
+//     animation.style.display = 'none';
+
+
+//     randomNumber1 = Math.floor(Math.random() * 1000);
+
+//     while ((randomNumber1 < 60) || (randomNumber1 > 580) || (Math.abs(randomNumber1 - hisNum1) < 200)) {
+//         randomNumber1 = Math.floor(Math.random() * 1000);
+//     }
+
+//     randomNumber2 = Math.floor(Math.random() * 1000);
+
+//     while ((randomNumber2 < 60) || (randomNumber2 > 1200) || (Math.abs(randomNumber2 - hisNum2) < 100)) {
+//         randomNumber2 = Math.floor(Math.random() * 1000);
+//     }
+
+
+
+//     click3.style.top = randomNumber1 + 'px';
+//     click3.style.left = randomNumber2 + 'px';
+//     hisNum1 = randomNumber1;
+//     hisNum2 = randomNumber2;
+
+// }
+
+
+// btn3.onclick = function () {
+    
+//     audio.play();
+//     animation.style.display = 'block';
+//     page3.style.animation = 'opacity  0.8s linear'
+//     setTimeout(function () {
+//         page3.style.display = 'none';
+        
+//     }, 800)
+//     page4.style.animation = 'opacityup 0.8s linear'
+//     setTimeout(function () {
+//         page4.style.display = 'block';
+//     }, 800)
+   
+// }
 
 click4.onmouseover = function (e) {
 
