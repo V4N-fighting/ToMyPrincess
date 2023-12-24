@@ -1,0 +1,112 @@
+* {
+    box-sizing: inherit;
+}
+
+body {
+ margin: 0;
+ overflow: hidden;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.page1 {
+    
+}
+
+.page5,
+.page4,
+.page3,
+.page2 {
+    display: none;
+}
+
+
+
+button {
+
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 50px;
+    background-color: #09080f;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #c7cfcb, #727575ef);
+    box-shadow: 1px 2px 3px #999;
+    cursor: pointer;
+    position: absolute;
+    top: 47vh;
+    left: 20vw
+}
+
+.btn5,
+.btn4,
+.btn3,
+.btn2,
+.btn {
+    top: 47vh;
+    left: 65vw;
+}
+
+.yes,
+.text {
+    position: absolute;
+    top: -40px;
+    left: 60%;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 20px;
+    display: none;
+    transition: display linear 0.4s;
+}
+
+.yes::after,
+.text::after {
+    content: "";
+    border-left: 20px solid #fff;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    z-index: 1;
+}
+
+.title {
+    display: flex;
+}
+
+.cover-title {
+    padding: 30px;
+    border: 3px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.title-question {
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    
+}
+
+@keyframes opacity {
+    from {opacity: 1;}
+    to {opacity: 0}
+}
+
+@keyframes opacityup {
+    from {opacity: 0;}
+    to {opacity: 1}
+}
